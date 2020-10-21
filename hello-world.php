@@ -1,1 +1,5 @@
-hello world pull request for issue #2
+<?php
+
+  echo "Testing EBS pipeline";
+
+?>
