@@ -11,7 +11,7 @@
     "name": { "string": {} },
     "owner": { "string": {} },
     "price": { "int": { "min": 0, "max": 1000000 } },
-    "pending_amount": { "int": {} },
+    "pending_amount": { "int": { "min": 0, "max": 1000000 } },
     "alloted_at": { "dateTime": {
       "min": "2022-01-01T00:00:00Z",
       "max": "2022-12-31T23:59:59Z"
