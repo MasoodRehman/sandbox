@@ -10,7 +10,7 @@
   "Mine": {
     "name": { "string": {} },
     "owner": { "string": {} },
-    "price": { "int": {} },
+    "price": { "int": { "min": 0, "max": 1000000 } },
     "pending_amount": { "int": {} },
     "alloted_at": { "dateTime": {
       "min": "2022-01-01T00:00:00Z",
