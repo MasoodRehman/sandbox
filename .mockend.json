@@ -2,7 +2,7 @@
   "User": {
     "name": { "string": {} },
     "email": { "string": {} },
-    "password": { "string": ['secret'] },
+    "password": { "string": ["secret"] },
     "mines": {
       "hasMany": "Mine"
     }
