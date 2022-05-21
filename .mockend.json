@@ -1,7 +1,7 @@
 {
   "User": {
     "name": { "string": {} },
-    "email": { "string": {} },
+    "email": { "string": ["masood@gmail.moc"] },
     "password": { "string": ["secret"] },
     "mines": {
       "hasMany": "Mine"
