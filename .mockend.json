@@ -1,14 +1,20 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "User": {
+    "name": { "string": {} },
+    "email": { "string": {} },
+    "password": { "string": ['secret'] },
+    "mines": {
+      "hasMany": "Mine"
     }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "Mine": {
+    "name": { "string": {} },
+    "owner": { "string": {} },
+    "price": { "int": {} },
+    "pending_amount": { "int": {} },
+    "alloted_at": { "dateTime": {} },
+    "user": {
+      "belongsTo": "User"
     }
   }
 }
