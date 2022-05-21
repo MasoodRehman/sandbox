@@ -12,7 +12,10 @@
     "owner": { "string": {} },
     "price": { "int": {} },
     "pending_amount": { "int": {} },
-    "alloted_at": { "dateTime": {} },
+    "alloted_at": { "dateTime": {
+      "min": "2022-01-01T00:00:00Z",
+      "max": "2022-12-31T23:59:59Z"
+    } },
     "user": {
       "belongsTo": "User"
     }
